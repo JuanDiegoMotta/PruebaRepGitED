@@ -18,6 +18,7 @@ public class Codigo {
 		System.out.println("Introduce aquello que quieras mostrar por pantalla:");
 		String s = sc.nextLine();
 		print(s);
+		diaDeHoy();
 	}
 	/**
 	 * Método que imprime por pantalla el argumento pasado por parámetro
@@ -25,6 +26,10 @@ public class Codigo {
 	 */
 	public static void print(String s) {
 		System.out.println(s);
+	}
+	
+	public static void diaDeHoy() {
+		System.out.println("Hoy es mi�rcoles.");
 	}
 
 }
